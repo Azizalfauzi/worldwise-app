@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function PageNav() {
   return (
     <nav>
       <ul>
         <li>
-          <Link to="/">Home Page</Link>
+          <NavLink to="/">Home Page</NavLink>
         </li>
         <li>
-          <Link to="/pricing">Home Page</Link>
+          <NavLink to="/pricing">Pricing</NavLink>
         </li>
         <li>
-          <Link to="/product">Home Page</Link>
+          <NavLink to="/product">Product</NavLink>
         </li>
       </ul>
     </nav>
