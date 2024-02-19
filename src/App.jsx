@@ -48,7 +48,7 @@ export default function App() {
           />
           <Route
             path="country"
-            element={<CountryList countries={cities} isLoading={isLoading} />}
+            element={<CountryList cities={cities} isLoading={isLoading} />}
           />
           <Route path="form" element={<p>Form</p>} />
         </Route>
