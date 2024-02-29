@@ -71,30 +71,6 @@
         "lng": "1.6699218750000002"
       },
       "id": 98443200
-    },
-    {
-      "cityName": "Tahannout",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2024-02-28T07:13:53.484Z",
-      "notes": "Hello Maroc",
-      "position": {
-        "lat": "31.231077091596134",
-        "lng": "-7.800292968750001"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "In Salah",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2024-02-28T07:16:12.648Z",
-      "notes": "Hello World",
-      "position": {
-        "lat": "27.735795819288004",
-        "lng": "2.8784179687500004"
-      },
-      "id": 98443202
     }
   ]
 }
