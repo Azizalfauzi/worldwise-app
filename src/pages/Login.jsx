@@ -1,14 +1,17 @@
 import { useState } from "react";
 import styles from "./Login.module.css";
 import PageNav from "../components/PageNav";
+import Button from "../components/Button";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
-
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
   return (
-    <main className={styles.login}>
+    <main className={styles.login} onSubmit={handleSubmit}>
       <PageNav />
       <form className={styles.form}>
         <div className={styles.row}>
@@ -32,7 +35,7 @@ export default function Login() {
         </div>
 
         <div>
-          <button>Login</button>
+          <Button type="primary">Login</Button>
         </div>
       </form>
     </main>
